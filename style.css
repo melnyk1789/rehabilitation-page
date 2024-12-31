@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #8dbb64;
+}
+
+/* Header Styles */
+.header {
+    background-color: #779611;
+    padding: 20px 0;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+    background-color: #eef7e7;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    background-color: #5b8a32;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.hero-button:hover {
+    background-color: #99ca68;
+}
+.hero-image img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+    border-radius: 10px; 
+}   
+/* About Section */
+.about {
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 0;
+    background-color: #eef7e7;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.services ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
