@@ -116,6 +116,24 @@ h1, h2 {
     margin: 10px 0;
 }
 
+/* Стили для кнопок */
+a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #44e069; 
+    color: #f1f1f1; 
+    text-decoration: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    text-align: center; 
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #218838; /* Более тёмный зелёный при наведении */
+}
+
+
 /* Contact Section */
 .contact {
     padding: 40px 0;
